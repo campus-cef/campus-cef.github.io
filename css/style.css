@@ -505,7 +505,7 @@ a:link, a:active, a:visited {
     align-items: center;
     background-color: #b8b89f;
     color: #fff;
-    padding: 0 11%;
+    padding: 60px 11% 0;
     height: max(11vh, 73px);
 }
 .blog-nav > a {
@@ -517,13 +517,13 @@ a:link, a:active, a:visited {
     color: #ddd;
 }
 .blog-content {
-    height: 100vh;
-    padding: 60px 11%;
+    /* height: 100vh; */
+    /* padding: 60px 11%; */
+    padding: 0 11%;
 }
-/* .blog-content > .blog-detail {
-    background: aqua;
-    height: 500px;
-} */
+.blog-content .loading {
+    height: 30vh;
+}
 .blog-content > .blog-detail > .title {
     color: #375875;
     font-size: 2em;
@@ -551,7 +551,7 @@ a:link, a:active, a:visited {
     border-left: 5px solid #b8b89f;
     margin: 5% 0;
 }
-.blog-content div:last-child { margin-bottom: 30px; }
+/* .blog-content div:last-child { margin-bottom: 30px; } */
 .blog-content > .footer {
     margin: 0 -14.1%;
 }
@@ -560,6 +560,7 @@ a:link, a:active, a:visited {
     align-items: center;
     position: relative;
     height: 50px;
+    margin-top: 10px;
 }
 .blog-search-bar {
     position: absolute;
@@ -637,6 +638,7 @@ a:link, a:active, a:visited {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: 'first second' 'first third' 'first forth';
+    margin-bottom: 10px;
 }
 .recap-container > .post-item-0 {
     grid-area: first;
