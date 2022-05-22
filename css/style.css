@@ -82,6 +82,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+.menu-dropdown-list a {
+    color: #fff;
+    text-decoration: none;
+}
 /* Navigation END */
 
 /* Header START */
