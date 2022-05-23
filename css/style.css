@@ -547,6 +547,9 @@ a:link, a:active, a:visited {
     color: #fff;
     background-color: #b8b89f;
 }
+.blog-content > .blog-detail .source {
+    text-align: right;
+}
 .blog-content > .blog-detail > .quote {
     width: 70%;
     background-color: #f0f0f0;
