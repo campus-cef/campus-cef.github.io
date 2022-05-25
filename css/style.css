@@ -528,6 +528,12 @@ a:link, a:active, a:visited {
 .blog-content .loading {
     height: 30vh;
 }
+.blog-content > .blog-detail > .top {
+    width: 800px;
+}
+.blog-content > .blog-detail > .top-mobile {
+    width: 100%;
+}
 .blog-content > .blog-detail > .title {
     color: #375875;
     font-size: 2em;
